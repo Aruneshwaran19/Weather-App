@@ -1,0 +1,120 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #00b4d8, #80d0c7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.weather-container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    animation: slideUp 1s ease-out;
+}
+
+.app-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+    animation: fadeIn 1s ease-in;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #00b4d8;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.search-btn {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #00b4d8;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #0288d1;
+}
+
+/* Weather details */
+.weather-details {
+    margin-top: 20px;
+    animation: fadeIn 2s ease-out;
+}
+
+.location h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.location p, .temperature p {
+    color: #888;
+    font-size: 1.1rem;
+}
+
+.temperature h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00b4d8;
+}
+
+/* Extra Details */
+.extra-details {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Forecast */
+.forecast {
+    margin-top: 30px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
