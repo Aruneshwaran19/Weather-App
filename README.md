@@ -10,9 +10,6 @@ A simple weather application built using **HTML**, **CSS**, **JavaScript**, and 
 - User-friendly interface with smooth animations and real-time data fetching.
 - Error handling for invalid city names or failed API requests.
 
-## Demo
-You can check out the live demo of the app at [Weather App Demo](#) (if you have a live version hosted).
-
 ## Screenshots
 ![Weather App Screenshot](images/screenshot.png)
 
@@ -44,11 +41,12 @@ Before running the project, ensure you have the following installed on your loca
 
 4. To get weather data, you need an API key from OpenWeatherMap:
 
--- Go to OpenWeatherMap.
--- Create an account and get an API key.
--- Replace the YOUR_API_KEY placeholder in the JavaScript file with your actual API key:
-``javascript
-- const apiKey = 'YOUR_API_KEY';
+- Go to OpenWeatherMap.
+- Create an account and get an API key.
+- Replace the YOUR_API_KEY placeholder in the JavaScript file with your actual API key:
+ ```javascript\
+const apiKey = 'YOUR_API_KEY';
+```
 
 ## How to Use
 
@@ -59,14 +57,17 @@ Before running the project, ensure you have the following installed on your loca
 
 
 ## Folder Structure
-weather-app/
+```weather-app/
 ├── index.html        # Main HTML file
 ├── script.js         # JavaScript file for API requests and functionality
 ├── style.css         # CSS file for styling
 ├── README.md         # This file
+```
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 
 
 
