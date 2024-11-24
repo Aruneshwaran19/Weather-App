@@ -11,7 +11,8 @@ A simple weather application built using **HTML**, **CSS**, **JavaScript**, and 
 - Error handling for invalid city names or failed API requests.
 
 ## Screenshots
-![Weather App Screenshot](images/screenshot.png)
+[Weather App Screenshot]![Screenshot (472)](https://github.com/user-attachments/assets/4b058015-bd47-4d6a-ade1-74b5ad72b057)
+
 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript
