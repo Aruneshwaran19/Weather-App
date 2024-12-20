@@ -2,7 +2,7 @@ const searchBtn = document.getElementById('searchBtn');
 const cityInput = document.getElementById('city');
 const weatherDetails = document.getElementById('weatherDetails');
 
-const apiKey = "YOUR_API_KEY"; // Replace with your OpenWeatherMap API key
+const apiKey = process.env.API_KEY;; // Replace with your OpenWeatherMap API key
 
 searchBtn.addEventListener('click', fetchWeather);
 
