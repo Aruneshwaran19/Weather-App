@@ -2,11 +2,10 @@ const searchBtn = document.getElementById('searchBtn');
 const cityInput = document.getElementById('city');
 const weatherDetails = document.getElementById('weatherDetails');
 
-const apiKey = process.env.API_KEY; // Replace with your OpenWeatherMap API key
+const apiKey = "<YOUR_API_KEY_HERE>"; // Replace with your OpenWeatherMap API key
 
 searchBtn.addEventListener('click', fetchWeather);
 
-// Event listener for "Enter" key on the input field
 cityInput.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         fetchWeather();
