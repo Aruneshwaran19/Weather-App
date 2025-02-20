@@ -7,13 +7,17 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom right, #00b4d8, #80d0c7);
+    background: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     animation: fadeIn 1.5s ease-out;
 }
+
 
 .weather-container {
     background: rgba(255, 255, 255, 0.8);
