@@ -1,4 +1,4 @@
-# Weather App
+# Weather Forecast
 
 ## Overview
 A simple weather application built using **HTML**, **CSS**, **JavaScript**, and **OpenWeatherMap API** to fetch real-time weather data. This app allows users to check the current weather by entering a city name, providing them with essential weather information such as temperature, humidity, and weather conditions.
